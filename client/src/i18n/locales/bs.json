@@ -1,0 +1,159 @@
+{
+  "global": {
+    "email": "E-mail",
+    "username": "Korisničko ime",
+    "password": "Šifra",
+    "save": "Spremi",
+    "currency": "KM",
+    "viewMore": "Pogledaj više",
+    "viewAll": "Pogledaj sve",
+    "utilize": "Iskoristi",
+    "or": "or",
+    "search": "Pretraga",
+    "sort": "Sortiraj",
+    "filter": "Filtriraj",
+    "loading": "Učitavanje",
+    "colors": "Boje",
+    "availableSizes": "Dostupne veličine",
+    "sizeTable": "Tablica veličina",
+    "description": "Opis",
+    "materials": "Materijali/Membrane/Tehnologija",
+    "viewOffer": "Pogledaj ponudu",
+    "addToCart": "Dodaj u korpu",
+    "soldOut": "Rasprodano",
+    "viewSimilar": "Pogledaj slične",
+    "chooseSize": "Odaberite veličinu",
+    "viewSimilarProducts": "Pogledaj slične artikle",
+    "removeProduct": "Ukloni artikal",
+    "sizes": "Veličine"
+  },
+  "auth": {
+    "passwordConfirm": "Šifra (potvrda)",
+    "rememberMe": "Zapamti me?",
+    "or": "ili",
+    "forgotPassword": "Zaboravili ste šifru?",
+    "login": "Prijavi se",
+    "register": "Registriraj se",
+    "acceptTerms": "Slažem se sa uslovima korištenja i kupovine",
+    "acceptPlanikaLoyalty": "Želim postati član Planika Club programa lojalnosti i prihvatam",
+    "termsAndConditions": "uslove korištenja",
+    "userData": "Vaši podaci će biti korišteni za poboljšanje korištena aplikacije, da pristupite svom nalogu kao i za drge namjene opisane u politici privatnosti"
+  },
+  "errors": {
+    "wrongCredentials": "Pogrešno korisničko ime ili šifra",
+    "usernameTooShort": "Korisničko ime je prekratko",
+    "usernameTooLong": "Korisničko ime je predugo",
+    "emailTooShort": "E-mail adresa je prekratka",
+    "emailTooLong": "E-mail adresa je preduga",
+    "invalidEmail": "Neispravna e-mail adresa",
+    "passwordLength": "Šifra mora biti duža od 6 karaktera",
+    "passwordMatch": "Šifre moraju biti iste",
+    "fieldIsRequired": "Polje je obavezno",
+    "fieldNotTicked": "Ovo polje mora biti označeno",
+    "errorOccurred": "Desila se greška"
+  },
+  "titles": {
+    "newCollection": "Nova kolekcija",
+    "selectedItems": "Izdvojeni artikli",
+    "topics": "Teme",
+    "news": "Novosti",
+    "newsID": "News story [ID]",
+    "brands": "Brendovi",
+    "shoeStories": "Shoe stories",
+    "onlineShopping": "Online kupovina",
+    "shoeStoryID": "Shoe story [ID]",
+    "relatedProducts": "Povezani proizvodi",
+    "favoritesList": "Lista želja"
+  },
+  "cart": {
+    "myCart": "Moja korpa",
+    "cartEmpty": "Trenutno nema proizvoda u Vašoj korpi",
+    "promoCode": "Promo kod",
+    "delivery": "Dostava",
+    "total": "Ukupno",
+    "planikaClub": "PlanikaClub"
+  },
+  "filters": {
+    "filters": "Filteri",
+    "filter": "Filtriraj",
+    "price": "Cijena",
+    "category": "Kategorija",
+    "brand": "Brend",
+    "size": "Veličina",
+    "color": "Boja",
+    "technology": "Tehnologija",
+    "removeFilters": "Ukloni filtere",
+    "applyFilters": "Primjeni filtere"
+  },
+  "sortOptions": {
+    "recent": "Nedavno dodano",
+    "ascendingTitle": "Naziv (A - Z)",
+    "descendingTitle": "Naziv (Z - A)",
+    "minPrice": "Cijena (Najniža)",
+    "maxPrice": "Cijena (Najviša)",
+    "sale": "% Sniženje"
+  },
+  "articleProperties": {
+    "articleID": "Šifra artikla",
+    "size": "Veličina",
+    "price": "Cijena",
+    "articleCode": "Šifra artikla",
+    "color": "Boja"
+  },
+  "home": {
+    "brandsSubtitle": "Naš veliki izbor brendova",
+    "onlineShoppingSection": {
+      "onlineShopping": "Online kupovina",
+      "accordingYourWish": "po vašoj želji"
+    },
+    "infoSection": {
+      "text": "Skoro stoljeće prisustva na ovim prostorima i gotovo istih tih stotinu godina težnji i istrajnosti kako bi Vas učinili zadovoljnim.\n\nMi smo Planika. Mi smo komfor.\n\nFunkcionalnost i moda su naše opredjeljenje, a sinergija ove dvije krajnosti je naš ultimativni zadatak.\n\nKonstantno se mijenjamo i prilagođavamo, znamo da u današnjem digitalnom svijetu adaptacija znači uspjeh.\n\nZato se ne bojimo istraživati nova područja i otvoriti nepoznata poglavlja."
+    },
+    "readAllNews": "Pogledaj sve novosti",
+    "products": {
+      "discount": "popusta",
+      "newCollection": "Nova kolekcija",
+      "forClubMembers": "za članove kluba"
+    }
+  },
+  "onlineShopping": {
+    "webStore": {
+      "title": "Web trgovina",
+      "text": "U web trgovini Planika.ba je moguće kupiti proizvode koji su predstavljeni na stranici Planika.ba. Narudžba u web trgovini je predana kada korisnik dobije automatsku elektronsku obavijest. Ta elektronska obavijest nije potvrda da je proizvod na zalihi i da je počela otprema proizvoda.\n\nNarudžba će biti potvrđena najkasnije u roku 2 radna dana od dana kada je narudžba poslana i to putem nove e-obavijesti o potvrdi narudžbe.\n\nU slučaju da naručenog artikla nema na zalihi ili da narudžbu nije moguće provesti radi drugih razloga, korisnik će biti obaviješten putem elektronske pošte. Ako je kupac platio kartičnim načinom plaćanja i artikal nije dostupan, sredstva će kupcu biti vraćena na račun. "
+    },
+    "delivery": {
+      "title": "Dostava",
+      "text1": "Kupac prilikom izbora narudžbe ima dvije opcije za dostavu narudžbe:",
+      "text2": "ukoliko kupac želi dostavu na kućna vrata, te ukupna cijena kupovine prelazi iznos od 100KM, troškove snosi Planika Flex d.o.o",
+      "text3": "ukoliko kupac želi preuzeti naručeni artikal u nekoj od prodavnica Planika Fex d.o.o troškove dostave snosi Planika Flex d.o.o",
+      "warning": "Ne dostavljamo van granica BiH.",
+      "text4": "Planika.ba će potvrđene narudžbe smatrati neopozivima. Kupac ima pravo na jednostrani raskid ugovora u skladu sa zakonom o zaštiti potrošača. Pravo se ostvaruje u roku i na način predviđen zakonom.\n\nPlanika Flex d.o.o. može narudžbu odbaciti odnosno ne isporučiti robu ukoliko ustanovi da je došlo do zloupotrebe Internet stranice Planika.ba. Prilikom naručivanja robe kupac potvrđuje da je bio upoznat sa općim uvjetima i da je posebno bio upozoren na opće uvjete.\n\nDostava artikala sa cijenom većom od 100KM na kućnu adresu unutar granica BiH je besplatna. Za artikle koje imaju cijenu ispod 100,00KM, za dostavljanje na kućnu adresu, kupac plaća još dodatni iznos od 10,00KM."
+    },
+    "payment": {
+      "title": "Plaćanje",
+      "text1": "Prilikom online kupovine, svojim kupcima nudimo slijedeće načine plaćanja:",
+      "text2": "Kartično plaćanje (Online plaćanje)",
+      "text3": "Gotovinsko plaćanje (Plaća se artikal pri preuzimanju)",
+      "text4": "Plaćanje proizvoda vrši se putem svih platežnih kartica, sa kojih se rezervišu sredstva u momentu zaključivanja narudžbe. Kada se izvrši dodatna provjera i da nalog da se izabrana narudžba procesira i šalje kupcu, rezervisana sredstva se skidaju sa računa kupca i prenose na račun Planika Flex d.o.o."
+    },
+    "checkAvailability": "Provjeri dostupnost u trgovinama"
+  },
+  "favorites": {
+    "emptyStateTitle": "Nažalost nemamo artikala za prikazati",
+    "emptyStateDescription": "Bez brige! Počnite spašavati artikle na klik malog srca i uzivajte u kupovini naših artikala. Sinkronizovat ćemo vaše artikle na svim vašim uređajima kako bismo vam olakšali život.",
+    "startShoppingNow": "Počnite kupovati sada",
+    "removedFavoritesItem": "Artikal je uklonjen sa liste želja",
+    "removeButtonText": "Ukloni",
+    "product": "proizvod",
+    "products": "proizvoda"
+  },
+  "sizes": {
+    "genderSizes": "Veličine proizvoda na osnovu pola",
+    "Men": "Muškarci",
+    "Women": "Žene",
+    "Children": "Djeca"
+  },
+  "news": {
+    "title": "Posljednje novosti"
+  }
+}

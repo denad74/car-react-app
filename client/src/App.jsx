@@ -1,22 +1,43 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
+import { HomeLayout, About, Contact, AllCar, Dashboard, Error, Landing, Register, Login } from "./pages";
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <h1>Hello from homepage of car app</h1>
+    element: <HomeLayout/>,
+    errorElement: <Error/>,
+    children:[
+      {
+        index:true,
+        element: <Landing/>
+      },
+      {
+        path: '/about',
+        element: <About/>
+      },
+      {
+        path: '/all-cars',
+        element: <AllCar/>
+      },
+      {
+        path: '/contact',
+        element: <Contact/>
+      },
+      {
+        path: '/dashboard',
+        element: <Dashboard/>
+      },
+      {
+      path: 'register',
+      element: <Register/>
+      },
+      {
+      path: 'login',
+      element: <Login/>
+      },
+    ]
   },
-  {
-    path: '/about',
-    element: <h1>Hello from about page</h1>
-  },
-  {
-    path: '/our-cars',
-    element: <h1>Hello from cars page</h1>
-  },
-  {
-    path: '/contact',
-    element: <h1>Hello from contact page</h1>
-  }
+  
 ])
 const App = () => {
 

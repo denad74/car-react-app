@@ -1,0 +1,14 @@
+export { default as HomeLayout } from './HomeLayout';
+export { default as About } from './About';
+export { default as AddCar } from './AddCar';
+export { default as Admin } from './Admin';
+export { default as AllCar } from './AllCar';
+export { default as Contact } from './Contact';
+export { default as Dashboard } from './Dashboard';
+export { default as DeleteCar } from './DeleteCar';
+export { default as EditCar } from './EditCar';
+export { default as Error } from './Error';
+export { default as Login } from './Login';
+export { default as Profile } from './Profile';
+export { default as Register } from './Register';
+export { default as Landing } from './Landing';
