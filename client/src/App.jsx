@@ -1,31 +1,16 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom"
-import { HomeLayout, About, Contact, AllCar, Dashboard, Error, Landing, Register, Login } from "./pages";
+import {RouterProvider, createBrowserRouter} from "react-router-dom";
+import { HomeLayout, Register, Login, DashboardLayout, Landing, Error, Admin, AddCar, Stats, AllCar, Profile} from './pages'
+import { DashboardContextProvider } from "./context/DashboardContext";
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <HomeLayout/>,
-    errorElement: <Error/>,
-    children:[
+  path: '/',
+  element: <HomeLayout/>,
+  errorElement: <Error/>,
+  children:[
       {
         index:true,
         element: <Landing/>
-      },
-      {
-        path: '/about',
-        element: <About/>
-      },
-      {
-        path: '/all-cars',
-        element: <AllCar/>
-      },
-      {
-        path: '/contact',
-        element: <Contact/>
-      },
-      {
-        path: '/dashboard',
-        element: <Dashboard/>
       },
       {
       path: 'register',
@@ -35,13 +20,43 @@ const router = createBrowserRouter([
       path: 'login',
       element: <Login/>
       },
+      {
+      path: 'dashboard',
+      element: <DashboardLayout/>,
+      children:[
+        {
+          index:true,
+          element: <AddCar />
+        },
+        {
+          path: 'stats',
+          element: <Stats />
+        },
+        {
+          path: 'all-car',
+          element: <AllCar />
+        },
+        {
+          path: 'profile',
+          element: <Profile />
+        },
+        {
+          path: 'admin',
+          element: <Admin />
+        }
+      ]
+      },
     ]
-  },
-  
+  }, 
 ])
 const App = () => {
 
-  return <RouterProvider router={router}/>
+
+  return (
+    <DashboardContextProvider >
+      <RouterProvider router={router}/>
+    </DashboardContextProvider>
+  )
 }
 
 export default App
